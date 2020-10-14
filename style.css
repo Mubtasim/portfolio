@@ -18,7 +18,7 @@ body {
 .paragraph {
   font-size: 2.8rem;
   opacity: 0;
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
   transition: font-size 0.5s linear, opacity 0.5s linear;
 }
 
