@@ -1,6 +1,6 @@
 let para = document.getElementById("para");
 // para.style.transition = "font-size 0.5s linear 1s";
-let texts = ["hi", "i'm", "mubtasim<br>shahriar", "a regular", "competitive<br>programmer", "max rating<br>Expert!", "in codeforces!","4 star", "in codechef"];
+let texts = ["hi", "I'm", "Mubtasim<br>Shahriar", "A Regular", "Competitive<br>Programmer", "Max Rating<br>Expert!", "In Codeforces!","4 Star", "In Codechef"];
 let len = texts.length;
 let idx = 0;
 
