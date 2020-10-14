@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 3rem;
+  opacity: 0;
+  text-transform: capitalize;
+  transition: font-size 0.5s linear, opacity 0.5s linear;
+}
+
+.incFont {
+  font-size: 5rem;
+  opacity: 1;
+}
+
+/* .decFont {
+  font-size: 1rem !important;
+} */
+
+@media (max-width: 300px) {
+  .paragraph {
+    font-size: 2.2rem;
+  }
+  .incFont {
+    font-size: 2.7rem;
+  }
+}
+
+/* .paragraph:hover {
+  font-size: 5rem;
+} */
