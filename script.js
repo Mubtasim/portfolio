@@ -10,7 +10,7 @@ let interval = setInterval(textSetter,4000);
 function textSetter() {
     // para.classList.remove("decFont");
     para.classList.add("incFont");
-    para.innerText = texts[idx++%len];
+    para.innerHTML = texts[idx++%len];
     setTimeout(() => {
         para.classList.remove("incFont");
     }, 3000);
