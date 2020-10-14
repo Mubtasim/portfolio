@@ -22,7 +22,7 @@ body {
   transition: font-size 0.5s linear, opacity 0.5s linear;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 500px) {
   .paragraph {
     font-size: 3rem;
   }
@@ -32,7 +32,7 @@ body {
   font-size: 2.5rem;
   opacity: 1;
 }
-@media (min-width: 300px) {
+@media (min-width: 500px) {
   .incFont {
     font-size: 5rem;
   }
